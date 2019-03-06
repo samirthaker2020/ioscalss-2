@@ -12,6 +12,8 @@
 		9B07700C222F3C3D0014CA44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B07700A222F3C3D0014CA44 /* Main.storyboard */; };
 		9B07700E222F3C3E0014CA44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B07700D222F3C3E0014CA44 /* Assets.xcassets */; };
 		9B077011222F3C3E0014CA44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B07700F222F3C3E0014CA44 /* LaunchScreen.storyboard */; };
+		9B077019222F4FC70014CA44 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B077018222F4FC70014CA44 /* ImageViewController.swift */; };
+		9B07701B222F50F60014CA44 /*  1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B07701A222F50F60014CA44 /*  1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9B07700D222F3C3E0014CA44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B077010222F3C3E0014CA44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B077012222F3C3E0014CA44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B077018222F4FC70014CA44 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		9B07701A222F50F60014CA44 /*  1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = " 1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 				9B077008222F3C3D0014CA44 /* FirstViewController.swift */,
 				9B07700A222F3C3D0014CA44 /* Main.storyboard */,
 				9B07700D222F3C3E0014CA44 /* Assets.xcassets */,
+				9B07701A222F50F60014CA44 /*  1.jpg */,
 				9B07700F222F3C3E0014CA44 /* LaunchScreen.storyboard */,
 				9B077012222F3C3E0014CA44 /* Info.plist */,
+				9B077018222F4FC70014CA44 /* ImageViewController.swift */,
 			);
 			path = "demo2class-2";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				9B077011222F3C3E0014CA44 /* LaunchScreen.storyboard in Resources */,
 				9B07700E222F3C3E0014CA44 /* Assets.xcassets in Resources */,
+				9B07701B222F50F60014CA44 /*  1.jpg in Resources */,
 				9B07700C222F3C3D0014CA44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B077009222F3C3D0014CA44 /* FirstViewController.swift in Sources */,
+				9B077019222F4FC70014CA44 /* ImageViewController.swift in Sources */,
 				9B077007222F3C3D0014CA44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
