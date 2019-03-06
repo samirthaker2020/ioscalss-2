@@ -18,7 +18,13 @@ class FirstViewController: UIViewController {
         
     }
 
-
+    @IBAction func next(_ sender: UIButton) {
+        let sb=UIStoryboard(name: "Main", bundle: nil)
+        let lionvc=sb.instantiateViewController(withIdentifier: "2") as! LineViewController
+        
+        self.present(lionvc,animated: true)
+    }
+    
     @IBAction func sw1(_ sender: UISwitch) {
         var count:Bool=false
         if sender.isOn
